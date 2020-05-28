@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright 2018, The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -62,14 +61,6 @@
         android:name="com.example.android.navigation.GameWonFragment"
         android:label="@string/android_trivia"
         tools:layout="@layout/fragment_game_won">
-        <!-- TODO (05) Add the numQuestions argument from the nav editor
-             Select the gameWonFragment in the nav editor.  Click the little triangle next to
-             arguments to expand the argument section.  Add the numQuestions argument with
-             integer type -->
-        <!-- TODO (06) Add the numCorrect argument from the nav editor
-             Select the gameWonFragment in the nav editor.  Click the little triangle next to
-             arguments to expand the argument section.  Add the numCorrect argument with
-             integer type -->
         <action
             android:id="@+id/action_gameWonFragment_to_gameFragment"
             app:destination="@id/gameFragment"
